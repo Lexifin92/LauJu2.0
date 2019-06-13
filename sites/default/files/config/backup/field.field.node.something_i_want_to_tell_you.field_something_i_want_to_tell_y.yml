@@ -1,0 +1,24 @@
+uuid: e0f2e2f3-43a3-47f1-a9a8-b8ba57105eff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_something_i_want_to_tell_y
+    - node.type.something_i_want_to_tell_you
+  module:
+    - text
+id: node.something_i_want_to_tell_you.field_something_i_want_to_tell_y
+field_name: field_something_i_want_to_tell_y
+entity_type: node
+bundle: something_i_want_to_tell_you
+label: 'Something i want to tell you'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p>Something i want to tell you...</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

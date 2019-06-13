@@ -1,0 +1,25 @@
+uuid: 4abef1a7-3325-4258-9695-a121af4a38b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - laujutheme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: laujutheme_branding
+theme: laujutheme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

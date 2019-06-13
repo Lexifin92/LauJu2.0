@@ -1,0 +1,18 @@
+uuid: 6ba7e0df-1410-4675-bfe8-11ed3038c5e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.muu_kokemus_
+id: node.muu_kokemus_.title
+field_name: title
+entity_type: node
+bundle: muu_kokemus_
+label: 'Muu kokemus '
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

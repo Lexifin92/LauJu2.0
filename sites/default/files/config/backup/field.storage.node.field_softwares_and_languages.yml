@@ -1,0 +1,20 @@
+uuid: 39de5fbb-3231-41dc-8ec4-f3202a2e4240
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_softwares_and_languages
+field_name: field_softwares_and_languages
+entity_type: node
+type: text
+settings:
+  max_length: 150
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+uuid: 9612532f-90e4-4531-8555-697a806e03ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_experience
+    - node.type.muu_kokemus_
+  module:
+    - text
+id: node.muu_kokemus_.field_date_experience
+field_name: field_date_experience
+entity_type: node
+bundle: muu_kokemus_
+label: Date
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: Date
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

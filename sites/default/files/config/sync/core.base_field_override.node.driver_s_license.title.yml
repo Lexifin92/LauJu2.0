@@ -1,0 +1,18 @@
+uuid: 2339d400-8f19-4e39-bbb2-e4396a5be7c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.driver_s_license
+id: node.driver_s_license.title
+field_name: title
+entity_type: node
+bundle: driver_s_license
+label: 'Driver''s license'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,24 @@
+uuid: ee928d1d-01aa-4b25-9aff-b487567f4e8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.muu_koulutus_kurssit.field_date
+    - field.field.node.muu_koulutus_kurssit.field_muu_koulutus_kurssit
+    - node.type.muu_koulutus_kurssit
+  module:
+    - user
+id: node.muu_koulutus_kurssit.teaser
+targetEntityType: node
+bundle: muu_koulutus_kurssit
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_date: true
+  field_muu_koulutus_kurssit: true

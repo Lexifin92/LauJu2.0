@@ -1,0 +1,18 @@
+uuid: 90fcea36-5dc5-455a-84b8-01af760d1577
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.education
+id: node.education.title
+field_name: title
+entity_type: node
+bundle: education
+label: education
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

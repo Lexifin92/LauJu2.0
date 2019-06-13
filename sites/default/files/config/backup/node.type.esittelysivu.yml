@@ -1,0 +1,18 @@
+uuid: 4f37b4fb-e33e-405b-84b6-a202ed3708a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'personal data'
+type: esittelysivu
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

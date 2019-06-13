@@ -1,0 +1,20 @@
+uuid: 9049c928-5cdb-45c6-9571-aea385180bd4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_school_name
+field_name: field_school_name
+entity_type: node
+type: text
+settings:
+  max_length: 20
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

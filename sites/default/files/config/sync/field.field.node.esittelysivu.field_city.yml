@@ -1,0 +1,21 @@
+uuid: c2bfc97a-6c9e-4896-8e0b-35461b28abec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_city
+    - node.type.esittelysivu
+  module:
+    - text
+id: node.esittelysivu.field_city
+field_name: field_city
+entity_type: node
+bundle: esittelysivu
+label: City
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

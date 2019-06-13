@@ -1,0 +1,24 @@
+uuid: 4c00d3da-cace-44e0-8820-4034e3040d1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.muu_koulutus_kurssit
+  module:
+    - text
+id: node.muu_koulutus_kurssit.field_date
+field_name: field_date
+entity_type: node
+bundle: muu_koulutus_kurssit
+label: Date
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: Date
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

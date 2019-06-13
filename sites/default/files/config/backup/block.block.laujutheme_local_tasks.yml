@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+uuid: 8ff4ad5a-e485-46ba-909a-33c14731dc30
+=======
+uuid: c195885a-18b7-4a31-b648-f679ccf50413
+>>>>>>> 0a3fac84826d2126349f1954e94f5ac86547d8df
+langcode: en
+status: true
+dependencies:
+  theme:
+    - laujutheme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: laujutheme_local_tasks
+theme: laujutheme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

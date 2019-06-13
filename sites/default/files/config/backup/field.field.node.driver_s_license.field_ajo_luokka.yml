@@ -1,0 +1,21 @@
+uuid: 9c3334e0-7750-4d6b-aa0b-457b293fc14e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ajo_luokka
+    - node.type.driver_s_license
+  module:
+    - options
+id: node.driver_s_license.field_ajo_luokka
+field_name: field_ajo_luokka
+entity_type: node
+bundle: driver_s_license
+label: Ajo-luokka
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,28 @@
+uuid: 1abf14f4-1584-4c66-bfea-2688128bd7ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.softwares_and_languages.field_softwares_and_languages
+    - node.type.softwares_and_languages
+  module:
+    - text
+    - user
+id: node.softwares_and_languages.default
+targetEntityType: node
+bundle: softwares_and_languages
+mode: default
+content:
+  field_softwares_and_languages:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

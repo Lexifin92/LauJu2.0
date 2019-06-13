@@ -1,0 +1,21 @@
+uuid: fd26613e-45aa-4eb8-b8ca-539757a0d675
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_muu_koulutus_kurssit
+    - node.type.muu_koulutus_kurssit
+  module:
+    - text
+id: node.muu_koulutus_kurssit.field_muu_koulutus_kurssit
+field_name: field_muu_koulutus_kurssit
+entity_type: node
+bundle: muu_koulutus_kurssit
+label: 'Muu koulutus/Kurssit'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

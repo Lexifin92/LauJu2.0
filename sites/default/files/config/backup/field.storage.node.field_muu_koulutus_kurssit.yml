@@ -1,0 +1,20 @@
+uuid: 23e7ffe9-4d78-4117-a817-a6da76dbb9f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_muu_koulutus_kurssit
+field_name: field_muu_koulutus_kurssit
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

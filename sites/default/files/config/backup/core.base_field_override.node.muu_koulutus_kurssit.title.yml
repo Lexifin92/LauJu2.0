@@ -1,0 +1,18 @@
+uuid: 8f8efcd7-0ea5-4117-bc99-0e671ba0a84f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.muu_koulutus_kurssit
+id: node.muu_koulutus_kurssit.title
+field_name: title
+entity_type: node
+bundle: muu_koulutus_kurssit
+label: 'Muu koulutus/Kurssit'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

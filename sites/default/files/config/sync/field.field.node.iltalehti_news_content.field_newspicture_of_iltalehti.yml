@@ -1,0 +1,38 @@
+uuid: e803ca65-456c-45c9-8fb9-23f5d2e478a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_newspicture_of_iltalehti
+    - node.type.iltalehti_news_content
+  module:
+    - image
+id: node.iltalehti_news_content.field_newspicture_of_iltalehti
+field_name: field_newspicture_of_iltalehti
+entity_type: node
+bundle: iltalehti_news_content
+label: 'newspicture of Iltalehti'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: bc2c0f7c-6361-4fcd-a0fb-24e7bba8f8a1
+    alt: 'Kurttu Kerttu'
+    title: ''
+    width: 2446
+    height: 2446
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

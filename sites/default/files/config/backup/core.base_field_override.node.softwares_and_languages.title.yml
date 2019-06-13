@@ -1,0 +1,18 @@
+uuid: 45efe37f-f933-4548-8d80-3938172cd037
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.softwares_and_languages
+id: node.softwares_and_languages.title
+field_name: title
+entity_type: node
+bundle: softwares_and_languages
+label: 'Softwares and languages'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 620f943d-1af5-46f8-acac-95d40f0fafe5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telephone
+    - node.type.esittelysivu
+  module:
+    - text
+id: node.esittelysivu.field_telephone
+field_name: field_telephone
+entity_type: node
+bundle: esittelysivu
+label: Telephone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,36 @@
+uuid: 6d223d1c-b295-44fc-97d1-89ab7f2dc4b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.muu_koulutus_kurssit.field_date
+    - field.field.node.muu_koulutus_kurssit.field_muu_koulutus_kurssit
+    - node.type.muu_koulutus_kurssit
+  module:
+    - text
+    - user
+id: node.muu_koulutus_kurssit.default
+targetEntityType: node
+bundle: muu_koulutus_kurssit
+mode: default
+content:
+  field_date:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_muu_koulutus_kurssit:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

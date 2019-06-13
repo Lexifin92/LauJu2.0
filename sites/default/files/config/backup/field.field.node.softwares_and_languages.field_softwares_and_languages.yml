@@ -1,0 +1,24 @@
+uuid: a2e4e598-ade6-4960-a958-02d12312e31e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_softwares_and_languages
+    - node.type.softwares_and_languages
+  module:
+    - text
+id: node.softwares_and_languages.field_softwares_and_languages
+field_name: field_softwares_and_languages
+entity_type: node
+bundle: softwares_and_languages
+label: 'Softwares and languages'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Softwares and languages'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

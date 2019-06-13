@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+uuid: aa21f02a-0fc8-4826-83d0-3903e24a548c
+=======
+uuid: edf3e3b6-9777-4856-a653-efbb451fc957
+>>>>>>> 0a3fac84826d2126349f1954e94f5ac86547d8df
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - laujutheme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: laujutheme_content
+theme: laujutheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

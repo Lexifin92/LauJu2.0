@@ -1,0 +1,22 @@
+uuid: b42aa93e-0094-47a1-8757-f47908656f50
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.driver_s_license.field_ajo_luokka
+    - node.type.driver_s_license
+  module:
+    - user
+id: node.driver_s_license.teaser
+targetEntityType: node
+bundle: driver_s_license
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_ajo_luokka: true

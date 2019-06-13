@@ -1,0 +1,20 @@
+uuid: 24f71659-56db-4433-b69f-637965c8dfdc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_startshool
+field_name: field_startshool
+entity_type: node
+type: text
+settings:
+  max_length: 10
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

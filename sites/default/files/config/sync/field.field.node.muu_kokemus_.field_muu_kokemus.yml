@@ -1,0 +1,24 @@
+uuid: 8c254880-d0f2-46b9-a9db-8ad79022fa07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_muu_kokemus
+    - node.type.muu_kokemus_
+  module:
+    - text
+id: node.muu_kokemus_.field_muu_kokemus
+field_name: field_muu_kokemus
+entity_type: node
+bundle: muu_kokemus_
+label: 'Add more experience'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Add more experience'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

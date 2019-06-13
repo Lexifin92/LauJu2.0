@@ -1,0 +1,22 @@
+uuid: 9a6db796-6849-456c-b5fa-f8abed4417e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - laujutheme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: laujutheme_messages
+theme: laujutheme
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

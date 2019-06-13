@@ -1,0 +1,20 @@
+uuid: 71ffedd9-dab4-4a79-95f3-b730de03d648
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_muu_kokemus
+field_name: field_muu_kokemus
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

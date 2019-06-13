@@ -1,0 +1,51 @@
+uuid: 9bf2b0d4-2a7e-46ef-bdb5-02ced59aefe9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_ajo_luokka
+field_name: field_ajo_luokka
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: A
+      label: A
+    -
+      value: T
+      label: T
+    -
+      value: B
+      label: B
+    -
+      value: C
+      label: C
+    -
+      value: C1
+      label: C1
+    -
+      value: CE
+      label: CE
+    -
+      value: D
+      label: D
+    -
+      value: D1
+      label: D1
+    -
+      value: D1E
+      label: D1E
+    -
+      value: DE
+      label: DE
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 10
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

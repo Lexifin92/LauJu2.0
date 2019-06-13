@@ -1,0 +1,22 @@
+uuid: d6a34575-e366-479e-a0fc-5a920e6ad3ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.working_experience.field_company
+    - node.type.working_experience
+  module:
+    - user
+id: node.working_experience.teaser
+targetEntityType: node
+bundle: working_experience
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_company: true

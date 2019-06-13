@@ -1,0 +1,21 @@
+uuid: b4faf674-fb4f-4840-a528-59dd524b7e3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_company
+    - node.type.working_experience
+  module:
+    - text
+id: node.working_experience.field_company
+field_name: field_company
+entity_type: node
+bundle: working_experience
+label: Company
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

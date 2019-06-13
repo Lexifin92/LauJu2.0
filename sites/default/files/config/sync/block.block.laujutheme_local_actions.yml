@@ -1,0 +1,20 @@
+uuid: 2d486649-f954-4852-ae41-a7073ba1f2f7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - laujutheme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: laujutheme_local_actions
+theme: laujutheme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
