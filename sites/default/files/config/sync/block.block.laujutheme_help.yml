@@ -1,0 +1,22 @@
+uuid: 3ae56a5c-44d8-4a31-8587-5e224be22b8a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - laujutheme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: laujutheme_help
+theme: laujutheme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
