@@ -10,7 +10,8 @@
         "drupal/webform": "^5.2",
         "drupal/feeds": "^3.0@alpha",
         "drupal/feeds_ex": "^1.0@alpha",
-        "drupal/slick": "^1.1"
+        "drupal/slick": "^1.1",
+        "drupal/drush": "^6.0@RC"
     },
     "replace": {
         "drupal/core": "^8.7"
