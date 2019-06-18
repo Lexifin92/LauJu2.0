@@ -12,7 +12,7 @@ id: portfolio_ja_cv_generator
 title: 'Portfolio ja CV generator'
 description: ''
 category: 'generator form'
-elements: "omat_tiedot:\n  '#type': webform_contact\n  '#title': 'Omat tiedot'\n  '#name__title': 'Etu- ja Sukunimi'\n  '#company__access': false\n  '#email__title': Sähköposti\n  '#email__help': Sähköposti\n  '#phone__title': Puhelinnumero\n  '#address__title': Katuosoite\n  '#address_2__access': false\n  '#city__title': Kaupunki\n  '#city__help': 'Helsinki Turku Oulu'\n  '#state_province__access': false\n  '#postal_code__title': Postinumero\n  '#postal_code__help': '000100'\n  '#country__title': Maa"
+elements: "omat_tiedot:\n  '#type': webform_contact\n  '#title': 'Omat tiedot'\n  '#name__title': 'Etu- ja Sukunimi'\n  '#company__access': false\n  '#email__title': Sähköposti\n  '#email__help': Sähköposti\n  '#phone__title': Puhelinnumero\n  '#address__title': Katuosoite\n  '#address_2__access': false\n  '#city__title': Kaupunki\n  '#city__help': 'Helsinki Turku Oulu'\n  '#state_province__access': false\n  '#postal_code__title': Postinumero\n  '#postal_code__help': '000100'\n  '#country__title': Maa\najo:\n  '#type': webform_wizard_page\n  '#title': ajo\n  ajo_testi:\n    '#type': checkbox\n    '#title': A\n  t:\n    '#type': checkbox\n    '#title': T\n  b:\n    '#type': checkbox\n    '#title': B\n  c:\n    '#type': checkbox\n    '#title': C\n  c1:\n    '#type': checkbox\n    '#title': C1\n  ce:\n    '#type': checkbox\n    '#title': CE\n  d:\n    '#type': checkbox\n    '#title': D\n  d1:\n    '#type': checkbox\n    '#title': D1\n  d1e:\n    '#type': checkbox\n    '#title': D1E\n  de:\n    '#type': checkbox\n    '#title': DE\ntest1:\n  '#type': webform_flexbox"
 css: ''
 javascript: ''
 settings:
